@@ -1,0 +1,57 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Odin';
+    src: url('Norse-Bold.otf') format('opentype');
+}
+
+.main-container {
+    display: flex;
+    height:100vh;
+}
+
+.left-section {
+    width: 30%;
+    height: inherit;
+    background-image: url('https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    /* Ensure the image covers the entire section */
+    background-position: center;
+    /* Center the image */
+    position: relative;
+    /* Allows positioning of child elements */
+}
+
+.translucent {
+    display:flex;
+    color:white;
+    margin-top: 200px;
+    height:150px;
+    padding: 10px 0px;
+    background-color: rgba(17, 13, 13, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.translucent img{
+    max-height:100%;
+}
+
+.translucent div{
+    font-size: 80px;
+    font-family: 'Odin',sans-serif;
+}
+
+.right-section {
+    flex:1;
+    height:inherit;
+}
+.sub-container {
+    display: flex;
+    flex-direction: column;
+}
