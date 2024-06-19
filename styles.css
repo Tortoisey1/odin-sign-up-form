@@ -12,7 +12,7 @@
 
 .main-container {
     display: flex;
-    height:100vh;
+    height: 100vh;
 }
 
 .left-section {
@@ -28,30 +28,75 @@
 }
 
 .translucent {
-    display:flex;
-    color:white;
+    display: flex;
+    color: white;
     margin-top: 200px;
-    height:150px;
+    height: 150px;
     padding: 10px 0px;
     background-color: rgba(17, 13, 13, 0.7);
     justify-content: center;
     align-items: center;
 }
 
-.translucent img{
-    max-height:100%;
+.translucent img {
+    max-height: 100%;
 }
 
-.translucent div{
+.translucent div {
     font-size: 80px;
-    font-family: 'Odin',sans-serif;
+    font-family: 'Odin', sans-serif;
 }
 
 .right-section {
-    flex:1;
-    height:inherit;
+    flex: 1;
+    height: inherit;
 }
+
 .sub-container {
     display: flex;
+    width:699px;
+    height: inherit;
     flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 200px;
+}
+
+/* the para first portion*/
+
+.top {
+    margin-bottom: 65px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* form*/
+fieldset{
+    border: none;
+}
+
+legend{
+    font-weight: bold;
+}
+
+/*button*/
+
+span {
+    color: #596D48;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
+    background-color: #596D48;
+    margin: 15px 0px 15px 0px;
+    font-size: medium;
 }
